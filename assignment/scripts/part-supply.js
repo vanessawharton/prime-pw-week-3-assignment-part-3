@@ -89,6 +89,6 @@ var parts = 572;
 var boxcount = 0;
 
 while(parts >= 7){
-    parts-7; boxcount+1;
+    parts--------; boxcount++;
     console.log('Boxes Filled Total:', boxcount, 'Parts Remaining Total:', parts);
 }
