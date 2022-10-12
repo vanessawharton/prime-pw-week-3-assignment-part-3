@@ -41,13 +41,13 @@ console.log('6. Showing supplyChanges...');
 
 for( value of supplyChanges){
     if(value > 0){
-        console.log('Added x parts.');
+        console.log('Added ', value, 'parts.');
     }
     else if(value === 0){
         console.log('No Change.');
     }
     else(value < 0)
-        console.log('Removed x parts.');
+        console.log('Removed ', value, 'parts.');
 }
 
 // STRETCH GOALS
