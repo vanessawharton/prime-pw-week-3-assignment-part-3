@@ -50,14 +50,6 @@ for( let i=0; i<supplyChanges.length; i++){
         console.log('Removed x parts.');
 }
 
-
-//    if (supplyChangeValue > 0)
-//console.log('Added ', 'x', 'parts.');
-//else if(supplyChangeValue === 0)
-//    console.log('No Change.');
-//else(supplyChangeValue < 0)
-//    console.log('Removed ', 'x', 'parts.');
-
 // STRETCH GOALS
 console.log('---  Stretch Goals  ---');
 // 7. Rewrite the `for` loop from #6 as a `for of` loop. 
