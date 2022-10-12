@@ -40,7 +40,7 @@ console.log('New contents of array', supplyChanges);
 console.log('6. Showing supplyChanges...');
 
 for( let i=0; i<supplyChanges.length; i++){
-    console.log('in for loop. i:', i);
+    console.log(supplyChanges[i]);
 }
 
 //    if (supplyChangeValue > 0)
