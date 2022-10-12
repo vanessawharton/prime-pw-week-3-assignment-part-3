@@ -39,6 +39,8 @@ console.log('New contents of array', supplyChanges);
 //    - if the value is negative, format the log as 'Removed x parts.' 
 console.log('6. Showing supplyChanges...');
 
+const max = 100;
+
 for( let i=0; i<max; i++){
     console.log('in for loop. i:', i);
 }
