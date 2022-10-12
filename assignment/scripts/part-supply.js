@@ -49,8 +49,8 @@ for( let i=0; i<supplyChanges.length; i++){
     }
     else(supplyChanges[i] < 0)
         console.log('Removed x parts.');
-    }
 }
+
 
 //    if (supplyChangeValue > 0)
 //console.log('Added ', 'x', 'parts.');
