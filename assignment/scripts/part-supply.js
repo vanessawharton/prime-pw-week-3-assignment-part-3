@@ -41,13 +41,13 @@ console.log('6. Showing supplyChanges...');
 
 for( let i=0; i<supplyChanges.length; i++){
     if(supplyChanges[i] > 0){
-        console.log('Added', value, 'parts.');
+        console.log('Added', supplyChanges[i], 'parts.');
     }
     else if(supplyChanges[i] === 0){
         console.log('No Change.');
     }
     else if(supplyChanges[i] < 0)
-        console.log('Removed', -(value), 'parts.');
+        console.log('Removed', -(supplyChanges[i]), 'parts.');
 }
 
 // STRETCH GOALS
