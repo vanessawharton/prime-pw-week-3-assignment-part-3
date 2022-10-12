@@ -39,12 +39,16 @@ console.log('New contents of array', supplyChanges);
 //    - if the value is negative, format the log as 'Removed x parts.' 
 console.log('6. Showing supplyChanges...');
 
-if (supplyChanges > 0)
-        console.log('Added ', supplyChanges, 'parts.');
-    else if(supplyChanges === 0)
-        console.log('No Change.');
-    else(supplyChanges < 0)
-        console.log('Removed ', supplyChanges, 'parts.');
+for( let i=0; i<max; i++){
+    console.log('in for loop. i:', i);
+}
+
+//    if (supplyChangeValue > 0)
+//console.log('Added ', 'x', 'parts.');
+//else if(supplyChangeValue === 0)
+//    console.log('No Change.');
+//else(supplyChangeValue < 0)
+//    console.log('Removed ', 'x', 'parts.');
 
 // STRETCH GOALS
 console.log('---  Stretch Goals  ---');
