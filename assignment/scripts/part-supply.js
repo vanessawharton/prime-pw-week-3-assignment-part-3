@@ -85,8 +85,10 @@ for(let i=0; i <supplyChanges.length; i++){
 //    Then log how many boxes were filled, and how many parts are left over.
 console.log('9. Filling boxes with a "while" loop');
 
-var countdown = 572;
-while(countdown >= 7){
-    countdown--;
-    console.log(countdown);
+var parts = 572;
+var boxcount = 0;
+
+while(parts >= 7){
+    parts-7; boxcount+1;
+    console.log('Boxes Filled Total:', boxcount, 'Parts Remaining Total:', parts);
 }
