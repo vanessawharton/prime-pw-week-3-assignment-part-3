@@ -41,6 +41,15 @@ console.log('6. Showing supplyChanges...');
 
 for( let i=0; i<supplyChanges.length; i++){
     console.log(supplyChanges[i]);
+    if(supplyChanges[i] > 0){
+        console.log('Added x parts.');
+    }
+    else if(supplyChanges[i] === 0){
+        console.log('No Change.');
+    }
+    else(supplyChanges[i] < 0){
+        console.log('Removed x parts.');
+    }
 }
 
 //    if (supplyChangeValue > 0)
