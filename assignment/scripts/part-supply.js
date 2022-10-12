@@ -18,6 +18,8 @@ console.log(supplyChanges);
 // 3. Console log the value of the second item in the 'supplyChanges' array
 console.log('3. Second supplyChange is:');
 
+console.log('Second item is', supplyChanges[1]);
+
 // 4. The last item was added by mistake. Remove it from the 'supplyChanges' 
 //    array & console.log the value removed.
 console.log('4. Removed item:');
