@@ -40,7 +40,6 @@ console.log('New contents of array', supplyChanges);
 console.log('6. Showing supplyChanges...');
 
 for( let i=0; i<supplyChanges.length; i++){
-    console.log(supplyChanges[i]);
     if(supplyChanges[i] > 0){
         console.log('Added x parts.');
     }
