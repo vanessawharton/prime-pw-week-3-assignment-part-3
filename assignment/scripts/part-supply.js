@@ -24,6 +24,9 @@ console.log('Second item is', supplyChanges[1]);
 //    array & console.log the value removed.
 console.log('4. Removed item:');
 
+supplyChanges.pop();
+console.log('Removed item', );
+
 // 5. A delivery of 25 more parts arrived. Add the value 25 to the end of the array
 console.log('5. Adding 25 to supplyChanges.');
 
