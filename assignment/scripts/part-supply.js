@@ -47,7 +47,7 @@ for( value of supplyChanges){
         console.log('No Change.');
     }
     else if(value < 0)
-        console.log('Removed', value, 'parts.');
+        console.log('Removed', -(value), 'parts.');
 }
 
 // STRETCH GOALS
